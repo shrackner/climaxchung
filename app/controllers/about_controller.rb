@@ -3,5 +3,7 @@ class AboutController < ApplicationController
   end
   
   def index
+    @posts = Post.where("section = 'about'")
+    @post = Post.new
   end
 end
