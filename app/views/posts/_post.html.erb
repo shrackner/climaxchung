@@ -4,6 +4,6 @@
     <p><%= post.content.html_safe %></p>
     <% if logged_in? %>
 	<%= button_to "Edit", edit_post_path(:id => post.id), :method => :get, remote: true %>
-	<%= button_to "Delete", post_path(:id => post.id), :method => :delete, remote: true %>
+	<%= button_to "Delete", post_path(:id => post.id), :method => :delete, remote: true, data: { confirm: 'Are you sure?' } %>
     <% end %>
 </div>
