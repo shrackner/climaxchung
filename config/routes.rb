@@ -3,8 +3,6 @@ Rails.application.routes.draw do
   get 'about' => 'about#index'
   get 'login' => 'sessions#new'
   post 'login' => 'sessions#create'
-  post 'posts' => 'posts#create'
-  get 'posts/:id' => 'posts#show'
   resources :posts
 
   # The priority is based upon order of creation: first created -> highest priority.
