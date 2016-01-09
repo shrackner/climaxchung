@@ -28,7 +28,6 @@ class PostsController < ApplicationController
   
   def create
     @post = Post.new(post_params)
-    @post.section = 'about'
     @post.pinned = false
 
     if @post.save
