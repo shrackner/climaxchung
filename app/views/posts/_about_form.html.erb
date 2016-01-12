@@ -3,7 +3,6 @@
     <%= f.text_field :title %><br>
     <%= f.label :content %><br>
     <%= f.text_area :content %><br>
-    <%= f.label :section %><br>
-    <%= f.file_field :file %>
+    <%= f.file_field :files, :multiple => true %>
     <%= f.submit %>
 <% end %>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160109105214) do
+ActiveRecord::Schema.define(version: 20160112111650) do
 
   create_table "attachments", force: :cascade do |t|
     t.integer  "post_id"
@@ -25,7 +25,6 @@ ActiveRecord::Schema.define(version: 20160109105214) do
   create_table "posts", force: :cascade do |t|
     t.string   "title"
     t.text     "content"
-    t.boolean  "pinned"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

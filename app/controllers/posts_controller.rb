@@ -28,7 +28,7 @@ class PostsController < ApplicationController
   
   def create
     @post = Post.new(post_params)
-    @post.pinned = false
+    @
 
     if @post.save
       respond_to do |format|
@@ -51,6 +51,6 @@ class PostsController < ApplicationController
       
   private
   def post_params
-    params.require(:post).permit(:title, :content, :section)
+    params.require(:post).permit(:title, :content)
   end
 end
