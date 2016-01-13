@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
   def new
+    @post = Post.new
+    @attachment = @post.attachments.build
   end
 
   def show
@@ -8,49 +10,37 @@ class PostsController < ApplicationController
 
   def edit
     @post = Post.find(params[:id])
-
-    respond_to do |format|
-      format.html {}
-      format.js {}
-    end
   end
 
-  def update
+  def update4
     @post = Post.find(params[:id])
-
-    if @post.update(post_params)
-      respond_to do |format|
-        format.html { redirect_to @post }
-        format.js {}
+    @post.update(post_params)
+    if params[:attachments]
+      params[:attachments]['file'].each do |f|
+        @post.attachments.create!(:file => f)
       end
     end
+    
+    redirect_to about_path
   end
   
   def create
     @post = Post.new(post_params)
-    @
-
-    if @post.save
-      respond_to do |format|
-        format.html { redirect_to @post }
-        format.js {}
-      end
+    @post.save
+    params[:attachments]['file'].each do |f|
+      @post.attachments.create!(:file => f)
     end
+    redirect_to about_path
   end
 
   def destroy
     @post = Post.find(params[:id])
-
-    respond_to do |format|
-      format.html { redirect_to posts_path }
-      format.js {}
-    end
-    
     @post.destroy
+    redirect_to about_path
   end
-      
+  
   private
   def post_params
-    params.require(:post).permit(:title, :content)
+    params.require(:post).permit(:title, :content, attachments_attributes: [:id, :post_id, :file])
   end
 end

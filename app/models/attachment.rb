@@ -1,4 +1,4 @@
 class Attachment < ActiveRecord::Base
-  belongs_to :post
   mount_uploader :file, FileUploader
+  belongs_to :post
 end

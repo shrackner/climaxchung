@@ -3,5 +3,5 @@
 </div>
 
 <% if logged_in? %>
-    <%= render 'posts/about_form' %>
+    <p><%= button_to 'New post', new_post_path, :method => :get %></p>
 <% end %>
