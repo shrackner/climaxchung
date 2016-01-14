@@ -1,7 +1,5 @@
-<div id="mid">
-    <%= render @posts %>
-</div>
+<%= render @posts %>
 
 <% if logged_in? %>
-    <p><%= button_to 'New post', new_post_path, :method => :get %></p>
+    <%= button_to 'New post', new_post_path, :method => :get %>
 <% end %>

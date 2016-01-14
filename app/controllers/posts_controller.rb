@@ -12,7 +12,7 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
   end
 
-  def update4
+  def update
     @post = Post.find(params[:id])
     @post.update(post_params)
     if params[:attachments]
@@ -27,8 +27,10 @@ class PostsController < ApplicationController
   def create
     @post = Post.new(post_params)
     @post.save
-    params[:attachments]['file'].each do |f|
-      @post.attachments.create!(:file => f)
+    if params[:attachments]
+      params[:attachments]['file'].each do |f|
+        @post.attachments.create!(:file => f)
+      end
     end
     redirect_to about_path
   end

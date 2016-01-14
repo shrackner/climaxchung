@@ -1,6 +1,7 @@
 <% if logged_in? %>
     <%= render 'form' %>
-    
-    <p>Attachments</p>
-    <%= render @post.attachments %>
+    <% if @post.attachments.length > 0 %>    
+	Attachments<br>
+	<%= render @post.attachments %>
+    <% end %>
 <% end %>
