@@ -93,6 +93,11 @@ p.timestamp {
     padding-bottom: 50px;
 }
 
+p.caption {
+    margin-top: -100px;
+    text-align: center;
+}
+
 #header {
     display: block;
     text-align: center;
@@ -122,9 +127,9 @@ p.timestamp {
 }
 
 img {
-
-}
-
-img.width-constrain {
-    width: 80%;
+    display: block;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 80%;
+    margin-bottom: 100px;
 }
