@@ -78,19 +78,18 @@ body {
 
 h1 {
     font-size: 30px;
-    padding: 0px 20px 30px 20px;
+    padding: 0px 20px 10px 20px;
     font-weight: bold;
 }
 
-p {
+p { 
     padding: 0 20px 30px 20px;
     font-size: 18px;
     line-height: 30px;
 }
 
 p.timestamp {
-    margin-top: -30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 p.caption {
@@ -185,4 +184,155 @@ img {
     margin: auto;
     max-width: 80%;
     margin-bottom: 30px;
+}
+
+@media (min-width: 700px) {
+    textarea {
+	width: 700px;
+	height: 500px;
+    }
+}
+
+@media (min-width: 1420px) {
+    #header .contact {
+	position: absolute;
+	right: 0;
+	top: 9px;
+    }
+}
+.contact {
+    margin: 0 auto;
+    width: 360px;
+    height: 62px;
+    text-align: center;
+}
+
+.contact .gmailw {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    background-image: url('/file/gmail_logow.png')
+}
+
+.contact .gmail {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    background-image: url('/file/gmail_logo.png')
+}
+
+.contact .gmailw:hover {
+    background-image: url('/file/gmail_logob.png')
+}
+
+.contact .gmail:hover {
+    background-image: url('/file/gmail_logob.png')
+}
+
+.contact .linkedinw {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    background-image: url('/file/linkedin_logow.png')
+}
+
+.contact .linkedin {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    background-image: url('/file/linkedin_logo.png')
+}
+
+.contact .linkedinw:hover {
+    background-image: url('/file/linkedin_logob.png')
+}
+
+.contact .linkedin:hover {
+    background-image: url('/file/linkedin_logob.png')
+}
+
+.contact .githubw {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    background-image: url('/file/github_logow.png')
+}
+
+.contact .github {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    background-image: url('/file/github_logo.png')
+}
+
+.contact .githubw:hover {
+    background-image: url('/file/github_logob.png')
+}
+
+.contact .github:hover {
+    background-image: url('/file/github_logob.png')
+}
+
+.contact .twitterw {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    background-image: url('/file/twitter_logow.png')
+}
+
+.contact .twitter {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    background-image: url('/file/twitter_logo.png')
+}
+
+.contact .twitterw:hover {
+    background-image: url('/file/twitter_logob.png')
+}
+
+.contact .twitter:hover {
+    background-image: url('/file/twitter_logob.png')
+}
+
+.contact .osuw {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    background-image: url('/file/osu_logow.png')
+}
+
+.contact .osu {
+    width: 32px;
+    height: 32px;
+    float: left;
+    padding: 0;
+    margin: 0 20px 0 20px;
+    background-image: url('/file/osu_logo.png')
+}
+
+.contact .osuw:hover {
+    background-image: url('/file/osu_logob.png')
+}
+
+.contact .osu:hover {
+    background-image: url('/file/osu_logob.png')
 }
