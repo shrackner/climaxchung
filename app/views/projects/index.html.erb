@@ -1,0 +1,13 @@
+<% @title = "Projects" %>
+
+<% @current_projects.each do |p| %>
+    <%= render :partial => "overview", :locals => {:project => p} %>
+<% end %>
+
+<% @past_projects.each do |p| %>
+    <%= render :partial => "overview", :locals => {:project => p} %>
+<% end %>
+
+<% if logged_in? %>
+    <%= button_to 'New project', new_project_path, :method => :get %>
+<% end %>

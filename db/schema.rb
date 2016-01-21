@@ -11,16 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160119161608) do
+ActiveRecord::Schema.define(version: 20160121052020) do
 
   create_table "attachments", force: :cascade do |t|
     t.integer  "post_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string   "file"
+    t.integer  "project_id"
   end
 
   add_index "attachments", ["post_id"], name: "index_attachments_on_post_id"
+  add_index "attachments", ["project_id"], name: "index_attachments_on_project_id"
 
   create_table "posts", force: :cascade do |t|
     t.string   "title"
@@ -34,10 +36,11 @@ ActiveRecord::Schema.define(version: 20160119161608) do
     t.text     "content"
     t.string   "description"
     t.string   "extension"
-    t.datetime "startdate"
-    t.datetime "enddate"
+    t.date     "startdate"
+    t.date     "enddate"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.string   "thumbnail"
   end
 
   create_table "users", force: :cascade do |t|
