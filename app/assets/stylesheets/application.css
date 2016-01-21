@@ -218,6 +218,7 @@ img {
 
 .contact {
     width: 360px;
+    padding-bottom: 30px;
 }
 
 .icon .iconw, .gmailw, .gmail, .linkedinw, .linkedin, 
@@ -227,7 +228,7 @@ img {
     padding: 0;
     float: left;
     margin: 0 20px 0 20px;
-    background-image: url('/iconw.png')    
+    background-repeat: no-repeat;
 }
 
 .icon .iconw:hover {
@@ -312,4 +313,33 @@ img {
 
 .contact .osu:hover {
     background-image: url('/file/osu_logob.png')
+}
+
+.project-overview {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.project-overview img {
+    display: inline-block;
+    max-width: 25%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.project-overview .project-overview-info {
+    display: inline-block;
+    width: 75%;
+    padding: 0;
+    margin: 0;
+}
+
+.project-overview h1 {
+    padding-bottom: 0;
+}
+
+.project-overview p {
+    padding-bottom: 0;
 }

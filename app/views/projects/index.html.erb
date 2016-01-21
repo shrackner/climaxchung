@@ -1,9 +1,11 @@
 <% @title = "Projects" %>
 
+<h1>Current</h1>
 <% @current_projects.each do |p| %>
     <%= render :partial => "overview", :locals => {:project => p} %>
 <% end %>
 
+<h1>Past</h1>
 <% @past_projects.each do |p| %>
     <%= render :partial => "overview", :locals => {:project => p} %>
 <% end %>
