@@ -343,25 +343,31 @@ img {
 }
 
 .project-overview img {
-    max-width: 25%;
+    width: 25%;
+    max-width: 100px;
     position: absolute;
     top: 50%;
-    left: 15%;
+    left: 19%;
     transform: translate(-50%,-50%);
 }
 
 .project-overview .project-overview-info {
-    width: 70%;
+    width: 62%;
     position: relative;
-    left: 30%;
+    left: 38%;
     padding: 0;
 }
 
 .project-overview h1 {
-    padding-bottom: 5px;
+    padding: 0 20px 5px 0;
+}
+
+.project-overview h1::selection {
+    background: black;
 }
 
 .project-overview p {
+    padding: 0 20px 5px 0;
     padding-bottom: 5px;
     color: black;
 }

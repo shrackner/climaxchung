@@ -1,0 +1,7 @@
+<% @title = "Blog" %>
+
+<%= render @blogs %>
+
+<% if logged_in? %>
+    <%= button_to 'New blog', new_blog_path, :method => :get %>
+<% end %>

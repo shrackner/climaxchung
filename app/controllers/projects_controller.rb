@@ -1,6 +1,6 @@
 class ProjectsController < ApplicationController
   def index
-    @current_projects = Project.where(:enddate => nil)
+    @current_projects = Project.where(:enddate => nil).order(:startdate => :desc)
     @past_projects = Project.where("enddate is NOT NULL").order(:enddate => :desc)
     @project = Project.new
   end
@@ -11,7 +11,12 @@ class ProjectsController < ApplicationController
   end
 
   def show
-    @project = Project.where(["extension = ?", params[:id]]).first
+    id = params[:id]
+    if id.to_i.to_s == id
+      @project = Project.find(params[:id])
+    else
+      @project = Project.where(["extension = ?", params[:id]]).first
+    end
   end
 
   def edit
@@ -27,7 +32,7 @@ class ProjectsController < ApplicationController
       end
     end
 
-    redirect_to projects_path
+    redirect_to @project
   end
 
   def create

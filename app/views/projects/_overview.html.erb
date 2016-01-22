@@ -15,7 +15,7 @@
 
 <% if logged_in? %>
     <%= button_to "Edit project", edit_project_path(:id => project.id), :method => :get %>
-    <%= button_to "Delete post", project_path(:id => project.id), :method => :delete, data: { confirm: 'Are you sure?' } %>
+    <%= button_to "Delete project", project_path(:id => project.id), :method => :delete, data: { confirm: 'Are you sure?' } %>
     
     <% if project.attachments.length > 0 %>
 	Attachments<br>
