@@ -4,7 +4,7 @@
     <%= link_to b, { :class => "blog-link" } do %>
 	<h1><%= b.title %></h1>
     <% end %>
-    <p class="timestamp">Last edited: <%= b.updated_at.strftime("%-d %B %Y, %l:%M%p") %></p>
+    <p class="timestamp"><%= b.created_at.strftime("%-d %B %Y, %l:%M%p") %></p>
     <%= b.content.html_safe %>
 
     <% if logged_in? %>

@@ -1,6 +1,6 @@
 class BlogsController < ApplicationController
   def index
-    @blogs = Blog.paginate(:page => params[:page], :per_page => 2).order(:created_at => :desc)
+    @blogs = Blog.paginate(:page => params[:page], :per_page => 5).order(:created_at => :desc)
     @blog = Blog.new
   end
 
