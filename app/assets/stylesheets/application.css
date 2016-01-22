@@ -110,6 +110,10 @@ a::selection {
     background: black;
 }
 
+a:hover {
+    color: black;
+}
+
 #header {
     width: 100%;
     height: 50px;
@@ -173,12 +177,28 @@ a::selection {
     }
 }
 
-img {
+img, video {
     display: block;
     border-radius: 10px;
-    margin: auto;
+    margin: 0 auto;
     max-width: 80%;
     margin-bottom: 30px;
+}
+
+
+.player-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 0;
+    padding-bottom: 45%;
+    margin-bottom: 30px;
+}
+
+iframe, embed, .player-wrapper a, .player-wrapper div {
+    position: absolute;
+    width: 100% !important; /* god dammit niconico */
+    height: 100% !important;
 }
 
 @media (min-width: 700px) {
@@ -374,4 +394,36 @@ img {
 
 .blog-link {
     text-decoration: none;
+}
+
+.pagination {
+    font-size: 19px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: white;
+    background-color: #ff7f7f;
+}
+
+.pagination a:hover {
+    color: black;
+}
+
+.pagination a, .pagination .current, .pagination .previous_page,.pagination .next_page {
+    display: none;
+    margin-right: 2px;
+    padding: 10px 15px 10px 15px;
+}
+
+.pagination .previous_page, .pagination .next_page {
+    display: inline-block;
+}
+
+@media (min-width: 700px) {
+    .pagination a, .pagination .current {
+	display: inline-block;
+    }
 }
