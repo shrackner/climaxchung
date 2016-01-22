@@ -188,6 +188,11 @@ img {
     }
 }
 
+#header {
+    /* On top of project's absolute css */
+    z-index: 1;
+}
+
 #header .contact, .icon {
     display: none;
 }
@@ -330,30 +335,33 @@ img {
 }
 
 .project-overview {
-    display: block;
     text-decoration: none;
-    color: black;
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
 }
 
 .project-overview img {
-    display: inline-block;
     max-width: 25%;
-    padding: 0;
-    margin: 0;
-    float: left;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%,-50%);
 }
 
 .project-overview .project-overview-info {
-    display: inline-block;
-    width: 75%;
+    width: 70%;
+    position: relative;
+    left: 30%;
     padding: 0;
-    margin: 0;
 }
 
 .project-overview h1 {
-    padding-bottom: 0;
+    padding-bottom: 5px;
 }
 
 .project-overview p {
-    padding-bottom: 0;
+    padding-bottom: 5px;
+    color: black;
 }
