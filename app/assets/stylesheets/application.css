@@ -116,6 +116,7 @@ a::selection {
     background-color: #ff7f7f;
     text-align: center;
     position: fixed;
+    border-bottom: 2px solid white;
 }
 
 @media (min-width: 700px) {
@@ -126,7 +127,7 @@ a::selection {
 }
 
 #buttons a {
-    width: 33%;
+    width: 25%;
     height: 50px;
     text-decoration: none;
     float: left;
@@ -139,7 +140,7 @@ a::selection {
 
 @media (min-width: 700px) {
     #buttons a { 
-	width: 232px;
+	width: 174px;
     }
 
     #buttons a:first-child {
@@ -237,6 +238,7 @@ img {
     float: left;
     margin: 0 20px 20px 20px;
     background-repeat: no-repeat;
+    background-size: 32px 32px;
 }
 
 .icon .iconw {
@@ -312,7 +314,7 @@ img {
 }
 
 .contact .osuw {
-    background-image: url('/file/osu_logow.png')
+    background-image: url('/file/osu_logo.png')
 }
 
 .contact .osu {
