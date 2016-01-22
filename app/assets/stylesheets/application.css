@@ -371,3 +371,7 @@ img {
     padding-bottom: 5px;
     color: black;
 }
+
+.blog-link {
+    text-decoration: none;
+}

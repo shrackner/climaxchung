@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+# pagination
+gem 'will_paginate'
+
+# file attachments
 gem 'carrierwave'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
