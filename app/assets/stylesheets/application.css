@@ -267,11 +267,11 @@ iframe, embed, .player-wrapper a, .player-wrapper div {
 }
 
 .icon .iconw {
-    background-image: url('/iconw.png')
+    background-image: url('/file/iconw.png')
 }
 
 .icon .iconw:hover {
-    background-image: url('/iconb.png')
+    background-image: url('/file/iconb.png')
 }
 
 .contact .gmailw {
@@ -394,6 +394,10 @@ iframe, embed, .player-wrapper a, .player-wrapper div {
 
 .blog-link {
     text-decoration: none;
+}
+
+.blog-link h1::selection {
+    background-color: black;
 }
 
 .pagination {
