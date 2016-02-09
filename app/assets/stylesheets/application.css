@@ -185,6 +185,16 @@ img, video, audio {
     margin-bottom: 30px;
 }
 
+@media (min-width: 600px) {
+    .ignore-border {
+	position: relative;
+	margin-left: 0;
+	margin-right: 0;
+	max-width: none;
+	left: 50%;
+	transform: translate(-50%);
+    }
+}
 
 .player-wrapper {
     position: relative;
