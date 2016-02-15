@@ -180,9 +180,8 @@ a:hover {
 img, video, audio {
     display: block;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
     max-width: 80%;
-    margin-bottom: 30px;
 }
 
 @media (min-width: 600px) {
