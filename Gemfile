@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'thin'
+
 # pagination
 gem 'will_paginate'
 
