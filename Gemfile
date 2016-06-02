@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'thin'
+gem 'puma'
 
 # pagination
 gem 'will_paginate'

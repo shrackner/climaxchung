@@ -1,0 +1,21 @@
+=== puma startup: 2016-06-01 03:17:57 -0400 ===
+[16835] * Starting control server on unix:///tmp/puma-status-1464765477379-16835
+[16835] - Worker 0 (pid: 16842) booted, phase: 0
+[16835] - Gracefully shutting down workers...
+[16835] === puma shutdown: 2016-06-01 03:18:12 -0400 ===
+[16835] - Goodbye!
+Exiting
+=== puma startup: 2016-06-01 03:18:20 -0400 ===
+[16871] * Starting control server on unix:///tmp/puma-status-1464765500620-16871
+[16871] - Worker 0 (pid: 16878) booted, phase: 0
+[16871] - Gracefully shutting down workers...
+[16871] === puma shutdown: 2016-06-01 03:21:58 -0400 ===
+[16871] - Goodbye!
+Exiting
+=== puma startup: 2016-06-01 13:41:26 -0400 ===
+[27365] * Starting control server on unix:///tmp/puma-status-1464802886479-27365
+[27365] - Worker 0 (pid: 27435) booted, phase: 0
+[27365] - Worker 0 (pid: 27573) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 27573 worker
+[27365] ! Out-of-sync worker list, no 27573 worker
+[27365] - Worker 0 (pid: 27831) booted, phase: 0
