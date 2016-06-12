@@ -19,3 +19,19 @@ Exiting
 [27365] ! Out-of-sync worker list, no 27573 worker
 [27365] ! Out-of-sync worker list, no 27573 worker
 [27365] - Worker 0 (pid: 27831) booted, phase: 0
+[27365] - Worker 0 (pid: 1849) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 1849 worker
+[27365] - Worker 0 (pid: 5717) booted, phase: 0
+[27365] - Worker 0 (pid: 10934) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 10934 worker
+[27365] ! Out-of-sync worker list, no 10934 worker
+[27365] - Worker 0 (pid: 24336) booted, phase: 0
+[27365] - Worker 0 (pid: 31776) booted, phase: 0
+[27365] - Worker 0 (pid: 15662) booted, phase: 0
+[27365] - Worker 0 (pid: 22395) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 22395 worker
+[27365] - Worker 0 (pid: 28793) booted, phase: 0
+[27365] - Worker 0 (pid: 31737) booted, phase: 0
+[27365] - Worker 0 (pid: 9791) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 9791 worker
+[27365] - Worker 0 (pid: 17531) booted, phase: 0
