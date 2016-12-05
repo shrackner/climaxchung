@@ -35,3 +35,353 @@ Exiting
 [27365] - Worker 0 (pid: 9791) booted, phase: 0
 [27365] ! Out-of-sync worker list, no 9791 worker
 [27365] - Worker 0 (pid: 17531) booted, phase: 0
+[27365] - Worker 0 (pid: 19698) booted, phase: 0
+[27365] - Worker 0 (pid: 28467) booted, phase: 0
+[27365] - Worker 0 (pid: 19376) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 19376 worker
+[27365] - Worker 0 (pid: 21971) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 21971 worker
+[27365] ! Terminating timed out worker: 31052
+[27365] - Worker 0 (pid: 31119) booted, phase: 0
+[27365] ! Terminating timed out worker: 2032
+[27365] - Worker 0 (pid: 2044) booted, phase: 0
+[27365] - Worker 0 (pid: 8361) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 8361 worker
+[27365] - Worker 0 (pid: 15540) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 15540 worker
+[27365] - Worker 0 (pid: 25724) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 25724 worker
+[27365] - Worker 0 (pid: 3521) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 3521 worker
+[27365] ! Out-of-sync worker list, no 3521 worker
+[27365] ! Terminating timed out worker: 15376
+[27365] - Worker 0 (pid: 15440) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 15440 worker
+[27365] - Worker 0 (pid: 20644) booted, phase: 0
+[27365] - Worker 0 (pid: 23631) booted, phase: 0
+[27365] - Worker 0 (pid: 32607) booted, phase: 0
+[27365] - Worker 0 (pid: 15772) booted, phase: 0
+[27365] - Worker 0 (pid: 9360) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 9360 worker
+[27365] - Worker 0 (pid: 26241) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 26241 worker
+[27365] - Worker 0 (pid: 8387) booted, phase: 0
+[27365] - Worker 0 (pid: 19636) booted, phase: 0
+[27365] - Worker 0 (pid: 32349) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 32349 worker
+[27365] ! Terminating timed out worker: 10669
+[27365] - Worker 0 (pid: 10750) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 10750 worker
+[27365] ! Out-of-sync worker list, no 10750 worker
+[27365] - Worker 0 (pid: 1085) booted, phase: 0
+[27365] - Worker 0 (pid: 4117) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 4117 worker
+[27365] ! Out-of-sync worker list, no 4117 worker
+[27365] - Worker 0 (pid: 18735) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 18735 worker
+[27365] - Worker 0 (pid: 28181) booted, phase: 0
+[27365] - Worker 0 (pid: 31048) booted, phase: 0
+[27365] ! Terminating timed out worker: 31048
+[27365] ! Out-of-sync worker list, no 31048 worker
+[27365] ! Out-of-sync worker list, no 31048 worker
+[27365] - Worker 0 (pid: 11307) booted, phase: 0
+[27365] - Worker 0 (pid: 16447) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 16447 worker
+[27365] - Worker 0 (pid: 17196) booted, phase: 0
+[27365] - Worker 0 (pid: 30046) booted, phase: 0
+[27365] - Worker 0 (pid: 786) booted, phase: 0
+[27365] - Worker 0 (pid: 18950) booted, phase: 0
+[27365] - Worker 0 (pid: 32351) booted, phase: 0
+[27365] ! Out-of-sync worker list, no 32351 worker
+[27365] ! Terminating timed out worker: 4204
+[27365] - Worker 0 (pid: 4229) booted, phase: 0
+[27365] - Gracefully shutting down workers...
+[27365] === puma shutdown: 2016-07-24 22:13:03 -0400 ===
+[27365] - Goodbye!
+=== puma startup: 2016-07-24 22:13:40 -0400 ===
+[948] * Starting control server on unix:///tmp/puma-status-1469412820546-948
+[948] - Worker 0 (pid: 1277) booted, phase: 0
+[948] ! Out-of-sync worker list, no 1277 worker
+[948] ! Out-of-sync worker list, no 1277 worker
+[948] - Worker 0 (pid: 9768) booted, phase: 0
+[948] - Worker 0 (pid: 30131) booted, phase: 0
+[948] - Worker 0 (pid: 6818) booted, phase: 0
+[948] ! Terminating timed out worker: 9619
+[948] - Worker 0 (pid: 9629) booted, phase: 0
+[948] - Worker 0 (pid: 16060) booted, phase: 0
+[948] ! Out-of-sync worker list, no 16060 worker
+[948] - Worker 0 (pid: 23398) booted, phase: 0
+[948] - Worker 0 (pid: 2344) booted, phase: 0
+[948] - Worker 0 (pid: 20022) booted, phase: 0
+[948] ! Out-of-sync worker list, no 20022 worker
+[948] - Worker 0 (pid: 20140) booted, phase: 0
+[948] - Worker 0 (pid: 3124) booted, phase: 0
+[948] ! Out-of-sync worker list, no 3124 worker
+[948] - Worker 0 (pid: 14594) booted, phase: 0
+[948] ! Out-of-sync worker list, no 14594 worker
+[948] ! Out-of-sync worker list, no 14594 worker
+[948] - Worker 0 (pid: 26843) booted, phase: 0
+[948] - Gracefully shutting down workers...
+[948] === puma shutdown: 2016-08-18 00:21:47 -0400 ===
+[948] - Goodbye!
+=== puma startup: 2016-08-18 00:22:03 -0400 ===
+[948] * Starting control server on unix:///tmp/puma-status-1471494123215-948
+[948] - Worker 0 (pid: 1277) booted, phase: 0
+[948] - Worker 0 (pid: 28619) booted, phase: 0
+[948] - Worker 0 (pid: 16770) booted, phase: 0
+[948] - Worker 0 (pid: 7580) booted, phase: 0
+[948] ! Out-of-sync worker list, no 7580 worker
+[948] ! Out-of-sync worker list, no 7580 worker
+[948] - Worker 0 (pid: 13530) booted, phase: 0
+[948] ! Out-of-sync worker list, no 13530 worker
+[948] ! Out-of-sync worker list, no 13530 worker
+[948] ! Out-of-sync worker list, no 13530 worker
+[948] - Worker 0 (pid: 22639) booted, phase: 0
+[948] - Worker 0 (pid: 31532) booted, phase: 0
+[948] - Worker 0 (pid: 6811) booted, phase: 0
+[948] ! Out-of-sync worker list, no 6811 worker
+[948] - Worker 0 (pid: 21313) booted, phase: 0
+[948] ! Out-of-sync worker list, no 21313 worker
+[948] ! Out-of-sync worker list, no 21313 worker
+[948] ! Out-of-sync worker list, no 21313 worker
+[948] ! Out-of-sync worker list, no 21313 worker
+[948] ! Out-of-sync worker list, no 21313 worker
+[948] ! Out-of-sync worker list, no 21313 worker
+[948] - Worker 0 (pid: 32499) booted, phase: 0
+[948] - Worker 0 (pid: 11333) booted, phase: 0
+[948] - Worker 0 (pid: 28032) booted, phase: 0
+[948] - Worker 0 (pid: 4814) booted, phase: 0
+[948] - Worker 0 (pid: 14481) booted, phase: 0
+[948] - Worker 0 (pid: 9265) booted, phase: 0
+[948] ! Out-of-sync worker list, no 9265 worker
+[948] ! Out-of-sync worker list, no 9265 worker
+[948] ! Out-of-sync worker list, no 9265 worker
+[948] - Worker 0 (pid: 9936) booted, phase: 0
+[948] ! Out-of-sync worker list, no 9936 worker
+[948] ! Out-of-sync worker list, no 9936 worker
+[948] ! Terminating timed out worker: 17964
+[948] - Worker 0 (pid: 18028) booted, phase: 0
+[948] ! Out-of-sync worker list, no 18028 worker
+[948] ! Out-of-sync worker list, no 18028 worker
+[948] - Worker 0 (pid: 31562) booted, phase: 0
+[948] ! Out-of-sync worker list, no 31562 worker
+[948] ! Out-of-sync worker list, no 31562 worker
+[948] ! Out-of-sync worker list, no 31562 worker
+[948] - Worker 0 (pid: 11872) booted, phase: 0
+[948] ! Out-of-sync worker list, no 11872 worker
+[948] - Worker 0 (pid: 25390) booted, phase: 0
+[948] ! Out-of-sync worker list, no 25390 worker
+[948] - Worker 0 (pid: 2751) booted, phase: 0
+[948] - Worker 0 (pid: 14874) booted, phase: 0
+[948] - Worker 0 (pid: 19975) booted, phase: 0
+[948] - Worker 0 (pid: 25514) booted, phase: 0
+[948] ! Out-of-sync worker list, no 25514 worker
+[948] ! Out-of-sync worker list, no 25514 worker
+[948] - Worker 0 (pid: 30043) booted, phase: 0
+[948] - Worker 0 (pid: 32717) booted, phase: 0
+[948] ! Terminating timed out worker: 1472
+[948] - Worker 0 (pid: 1480) booted, phase: 0
+[948] - Worker 0 (pid: 17048) booted, phase: 0
+[948] - Worker 0 (pid: 31357) booted, phase: 0
+[948] - Worker 0 (pid: 5751) booted, phase: 0
+[948] ! Out-of-sync worker list, no 5751 worker
+[948] ! Out-of-sync worker list, no 5751 worker
+[948] - Worker 0 (pid: 9876) booted, phase: 0
+[948] ! Out-of-sync worker list, no 9876 worker
+[948] - Worker 0 (pid: 15273) booted, phase: 0
+[948] - Worker 0 (pid: 30508) booted, phase: 0
+[948] ! Out-of-sync worker list, no 30508 worker
+[948] - Worker 0 (pid: 10843) booted, phase: 0
+[948] - Worker 0 (pid: 17103) booted, phase: 0
+[948] - Worker 0 (pid: 30178) booted, phase: 0
+[948] ! Out-of-sync worker list, no 30178 worker
+[948] ! Out-of-sync worker list, no 30178 worker
+[948] ! Out-of-sync worker list, no 30178 worker
+[948] - Worker 0 (pid: 9838) booted, phase: 0
+[948] ! Out-of-sync worker list, no 9838 worker
+[948] - Worker 0 (pid: 15230) booted, phase: 0
+[948] ! Out-of-sync worker list, no 15230 worker
+[948] ! Terminating timed out worker: 22112
+[948] - Worker 0 (pid: 22127) booted, phase: 0
+[948] - Worker 0 (pid: 29105) booted, phase: 0
+[948] ! Out-of-sync worker list, no 29105 worker
+[948] - Worker 0 (pid: 11157) booted, phase: 0
+[948] ! Out-of-sync worker list, no 11157 worker
+[948] - Worker 0 (pid: 18813) booted, phase: 0
+[948] - Worker 0 (pid: 28205) booted, phase: 0
+[948] ! Out-of-sync worker list, no 28205 worker
+[948] - Worker 0 (pid: 30884) booted, phase: 0
+[948] ! Terminating timed out worker: 3206
+[948] - Worker 0 (pid: 3219) booted, phase: 0
+[948] - Worker 0 (pid: 16169) booted, phase: 0
+[948] - Worker 0 (pid: 27792) booted, phase: 0
+[948] ! Out-of-sync worker list, no 27792 worker
+[948] ! Terminating timed out worker: 303
+[948] - Worker 0 (pid: 309) booted, phase: 0
+[948] ! Out-of-sync worker list, no 309 worker
+[948] ! Terminating timed out worker: 5991
+[948] - Worker 0 (pid: 5997) booted, phase: 0
+[948] - Worker 0 (pid: 9053) booted, phase: 0
+[948] ! Out-of-sync worker list, no 9053 worker
+[948] ! Terminating timed out worker: 16393
+[948] - Worker 0 (pid: 16445) booted, phase: 0
+[948] - Worker 0 (pid: 22189) booted, phase: 0
+[948] ! Out-of-sync worker list, no 22189 worker
+[948] ! Terminating timed out worker: 27826
+[948] - Worker 0 (pid: 27888) booted, phase: 0
+[948] - Worker 0 (pid: 6099) booted, phase: 0
+[948] - Worker 0 (pid: 15512) booted, phase: 0
+[948] ! Out-of-sync worker list, no 15512 worker
+[948] - Worker 0 (pid: 25606) booted, phase: 0
+[948] ! Out-of-sync worker list, no 25606 worker
+[948] ! Out-of-sync worker list, no 25606 worker
+[948] ! Out-of-sync worker list, no 25606 worker
+[948] ! Out-of-sync worker list, no 25606 worker
+[948] - Worker 0 (pid: 5114) booted, phase: 0
+[948] - Worker 0 (pid: 11267) booted, phase: 0
+[948] ! Out-of-sync worker list, no 11267 worker
+[948] - Worker 0 (pid: 15168) booted, phase: 0
+[948] ! Terminating timed out worker: 16845
+[948] - Worker 0 (pid: 16910) booted, phase: 0
+[948] - Worker 0 (pid: 21702) booted, phase: 0
+[948] - Worker 0 (pid: 22504) booted, phase: 0
+[948] - Worker 0 (pid: 25771) booted, phase: 0
+[948] - Worker 0 (pid: 26331) booted, phase: 0
+[948] - Worker 0 (pid: 26450) booted, phase: 0
+[948] - Worker 0 (pid: 26497) booted, phase: 0
+[948] - Worker 0 (pid: 26521) booted, phase: 0
+[948] ! Out-of-sync worker list, no 26521 worker
+[948] - Worker 0 (pid: 26612) booted, phase: 0
+[948] - Worker 0 (pid: 26669) booted, phase: 0
+[948] ! Terminating timed out worker: 29873
+[948] - Worker 0 (pid: 29897) booted, phase: 0
+[948] - Worker 0 (pid: 3286) booted, phase: 0
+[948] - Worker 0 (pid: 3987) booted, phase: 0
+[948] ! Out-of-sync worker list, no 3987 worker
+[948] - Worker 0 (pid: 4314) booted, phase: 0
+[948] ! Out-of-sync worker list, no 4314 worker
+[948] - Worker 0 (pid: 8890) booted, phase: 0
+=== puma startup: 2016-11-22 22:55:17 -0500 ===
+[916] * Starting control server on unix:///tmp/puma-status-1479873317251-916
+[916] - Worker 0 (pid: 1341) booted, phase: 0
+[916] - Gracefully shutting down workers...
+[916] === puma shutdown: 2016-11-22 23:05:30 -0500 ===
+[916] - Goodbye!
+=== puma startup: 2016-11-22 23:05:31 -0500 ===
+[17137] * Starting control server on unix:///tmp/puma-status-1479873931676-17137
+[17137] - Worker 0 (pid: 17209) booted, phase: 0
+=== puma startup: 2016-11-22 23:05:41 -0500 ===
+[17260] * Starting control server on unix:///tmp/puma-status-1479873941238-17260
+[17260] - Worker 0 (pid: 17370) booted, phase: 0
+=== puma startup: 2016-11-22 23:09:39 -0500 ===
+[971] * Starting control server on unix:///tmp/puma-status-1479874179497-971
+[971] - Worker 0 (pid: 1299) booted, phase: 0
+[971] - Gracefully shutting down workers...
+[971] === puma shutdown: 2016-11-22 23:17:07 -0500 ===
+[971] - Goodbye!
+=== puma startup: 2016-11-22 23:17:22 -0500 ===
+[965] * Starting control server on unix:///tmp/puma-status-1479874642072-965
+[965] - Worker 0 (pid: 1293) booted, phase: 0
+[965] ! Terminating timed out worker: 1293
+[965] ! Out-of-sync worker list, no 1293 worker
+[965] - Worker 0 (pid: 2907) booted, phase: 0
+[965] ! Terminating timed out worker: 2907
+[965] ! Out-of-sync worker list, no 2907 worker
+[965] ! Out-of-sync worker list, no 2907 worker
+[965] - Worker 0 (pid: 3533) booted, phase: 0
+[965] - Worker 0 (pid: 4193) booted, phase: 0
+[965] ! Out-of-sync worker list, no 4193 worker
+[965] ! Out-of-sync worker list, no 4193 worker
+[965] - Worker 0 (pid: 4694) booted, phase: 0
+[965] ! Terminating timed out worker: 4694
+[965] ! Out-of-sync worker list, no 4694 worker
+[965] ! Out-of-sync worker list, no 4694 worker
+[965] ! Out-of-sync worker list, no 4694 worker
+[965] ! Out-of-sync worker list, no 4694 worker
+[965] ! Out-of-sync worker list, no 4694 worker
+[965] - Worker 0 (pid: 6058) booted, phase: 0
+[965] ! Terminating timed out worker: 6058
+[965] - Worker 0 (pid: 6549) booted, phase: 0
+[965] ! Out-of-sync worker list, no 6549 worker
+[965] - Worker 0 (pid: 7858) booted, phase: 0
+[965] ! Out-of-sync worker list, no 7858 worker
+[965] ! Out-of-sync worker list, no 7858 worker
+[965] ! Out-of-sync worker list, no 7858 worker
+[965] ! Out-of-sync worker list, no 7858 worker
+[965] ! Out-of-sync worker list, no 7858 worker
+[965] ! Out-of-sync worker list, no 7858 worker
+[965] ! Out-of-sync worker list, no 7858 worker
+[965] - Worker 0 (pid: 8287) booted, phase: 0
+[965] ! Terminating timed out worker: 8287
+[965] ! Out-of-sync worker list, no 8287 worker
+[965] ! Out-of-sync worker list, no 8287 worker
+[965] ! Out-of-sync worker list, no 8287 worker
+[965] - Worker 0 (pid: 8850) booted, phase: 0
+[965] ! Out-of-sync worker list, no 8850 worker
+[965] ! Out-of-sync worker list, no 8850 worker
+[965] ! Out-of-sync worker list, no 8850 worker
+[965] - Worker 0 (pid: 13782) booted, phase: 0
+[965] ! Terminating timed out worker: 17838
+[965] - Worker 0 (pid: 17843) booted, phase: 0
+[965] ! Terminating timed out worker: 17843
+[965] ! Out-of-sync worker list, no 17843 worker
+[965] - Worker 0 (pid: 19836) booted, phase: 0
+[965] ! Out-of-sync worker list, no 19836 worker
+[965] ! Out-of-sync worker list, no 19836 worker
+[965] - Worker 0 (pid: 22868) booted, phase: 0
+[965] ! Terminating timed out worker: 22868
+[965] ! Out-of-sync worker list, no 22868 worker
+[965] ! Out-of-sync worker list, no 22868 worker
+[965] ! Out-of-sync worker list, no 22868 worker
+[965] - Worker 0 (pid: 26187) booted, phase: 0
+[965] ! Terminating timed out worker: 26187
+[965] ! Out-of-sync worker list, no 26187 worker
+[965] ! Out-of-sync worker list, no 26187 worker
+[965] - Worker 0 (pid: 2623) booted, phase: 0
+[965] ! Terminating timed out worker: 2623
+[965] ! Out-of-sync worker list, no 2623 worker
+[965] ! Out-of-sync worker list, no 2623 worker
+[965] ! Out-of-sync worker list, no 2623 worker
+[965] ! Out-of-sync worker list, no 2623 worker
+[965] ! Out-of-sync worker list, no 2623 worker
+[965] - Worker 0 (pid: 8908) booted, phase: 0
+[965] ! Terminating timed out worker: 8908
+[965] ! Out-of-sync worker list, no 8908 worker
+[965] - Worker 0 (pid: 9544) booted, phase: 0
+[965] ! Terminating timed out worker: 9544
+[965] ! Out-of-sync worker list, no 9544 worker
+[965] ! Out-of-sync worker list, no 9544 worker
+[965] ! Out-of-sync worker list, no 9544 worker
+[965] ! Out-of-sync worker list, no 9544 worker
+[965] ! Out-of-sync worker list, no 9544 worker
+[965] - Worker 0 (pid: 24418) booted, phase: 0
+[965] ! Terminating timed out worker: 24418
+[965] ! Out-of-sync worker list, no 24418 worker
+[965] ! Out-of-sync worker list, no 24418 worker
+[965] - Worker 0 (pid: 26208) booted, phase: 0
+[965] ! Out-of-sync worker list, no 26208 worker
+[965] ! Out-of-sync worker list, no 26208 worker
+[965] - Worker 0 (pid: 27390) booted, phase: 0
+[965] ! Out-of-sync worker list, no 27390 worker
+[965] - Worker 0 (pid: 28083) booted, phase: 0
+[965] ! Terminating timed out worker: 28083
+[965] - Worker 0 (pid: 28508) booted, phase: 0
+[965] ! Out-of-sync worker list, no 28508 worker
+[965] - Worker 0 (pid: 28828) booted, phase: 0
+[965] ! Terminating timed out worker: 28828
+[965] ! Out-of-sync worker list, no 28828 worker
+[965] ! Out-of-sync worker list, no 28828 worker
+[965] - Worker 0 (pid: 28957) booted, phase: 0
+[965] - Worker 0 (pid: 30399) booted, phase: 0
+[965] ! Terminating timed out worker: 30399
+[965] ! Out-of-sync worker list, no 30399 worker
+[965] - Worker 0 (pid: 479) booted, phase: 0
+[965] ! Terminating timed out worker: 479
+[965] ! Out-of-sync worker list, no 479 worker
+[965] ! Out-of-sync worker list, no 479 worker
+[965] ! Out-of-sync worker list, no 479 worker
+[965] - Worker 0 (pid: 923) booted, phase: 0
+[965] ! Terminating timed out worker: 923
+[965] ! Out-of-sync worker list, no 923 worker
+[965] ! Out-of-sync worker list, no 923 worker
+[965] - Worker 0 (pid: 1779) booted, phase: 0

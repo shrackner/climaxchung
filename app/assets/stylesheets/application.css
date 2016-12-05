@@ -204,6 +204,15 @@ img, video, audio {
     margin-bottom: 30px;
 }
 
+.challonge-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 500px;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+}
+
 iframe, embed, .player-wrapper a, .player-wrapper div {
     position: absolute;
     width: 100% !important; /* god dammit niconico */
