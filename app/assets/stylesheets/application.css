@@ -107,7 +107,7 @@ a {
 }
 
 a::selection {
-    background: black;
+    background: #2d2d2d;
 }
 
 a:hover {
@@ -401,7 +401,7 @@ iframe, embed, .player-wrapper a, .player-wrapper div {
 }
 
 .project-overview h1::selection {
-    background: black;
+    background: #2d2d2d;
 }
 
 .project-overview p {
@@ -415,7 +415,7 @@ iframe, embed, .player-wrapper a, .player-wrapper div {
 }
 
 .blog-link h1::selection {
-    background-color: black;
+    background-color: #2d2d2d;
 }
 
 .pagination {
