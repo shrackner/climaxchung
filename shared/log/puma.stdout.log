@@ -832,3 +832,17 @@ Exiting
 [968] - Worker 0 (pid: 27882) booted, phase: 0
 [968] - Worker 0 (pid: 27988) booted, phase: 0
 [968] - Worker 0 (pid: 28313) booted, phase: 0
+[968] - Worker 0 (pid: 2306) booted, phase: 0
+[968] - Worker 0 (pid: 9971) booted, phase: 0
+[968] - Worker 0 (pid: 23672) booted, phase: 0
+[968] - Worker 0 (pid: 7870) booted, phase: 0
+[968] - Worker 0 (pid: 10796) booted, phase: 0
+[968] - Worker 0 (pid: 13256) booted, phase: 0
+[968] - Worker 0 (pid: 14102) booted, phase: 0
+[968] - Worker 0 (pid: 19598) booted, phase: 0
+[968] - Worker 0 (pid: 12525) booted, phase: 0
+[968] - Worker 0 (pid: 17298) booted, phase: 0
+[968] - Worker 0 (pid: 18733) booted, phase: 0
+=== puma startup: 2017-06-22 06:41:46 -0400 ===
+[917] * Starting control server on unix:///tmp/puma-status-1498128106253-917
+[917] - Worker 0 (pid: 1208) booted, phase: 0
