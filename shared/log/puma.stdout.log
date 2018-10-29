@@ -846,3 +846,11 @@ Exiting
 === puma startup: 2017-06-22 06:41:46 -0400 ===
 [917] * Starting control server on unix:///tmp/puma-status-1498128106253-917
 [917] - Worker 0 (pid: 1208) booted, phase: 0
+[917] - Gracefully shutting down workers...
+[917] === puma shutdown: 2018-03-28 11:09:34 -0400 ===
+[917] - Goodbye!
+=== puma startup: 2018-03-28 11:16:46 -0400 ===
+[922] * Starting control server on unix:///tmp/puma-status-1522250206444-922
+[922] - Worker 0 (pid: 1213) booted, phase: 0
+[922] - Worker 0 (pid: 10786) booted, phase: 0
+[922] - Worker 0 (pid: 3511) booted, phase: 0

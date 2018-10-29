@@ -979,3 +979,122 @@ log writing faile=== puma startup: 2017-03-18 22:25:50 -0400 ===
 /home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/server.rb:271:in `block in run'
 /home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `call'
 /home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+2017-11-09 01:01:23 -0500: Rack app error: #<ActionController::UnknownHttpMethod: ZTBJ, accepted HTTP methods are OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT, PROPFIND, PROPPATCH, MKCOL, COPY, MOVE, LOCK, UNLOCK, VERSION-CONTROL, REPORT, CHECKOUT, CHECKIN, UNCHECKOUT, MKWORKSPACE, UPDATE, LABEL, MERGE, BASELINE-CONTROL, MKACTIVITY, ORDERPATCH, ACL, SEARCH, MKCALENDAR, and PATCH>
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/request.rb:344:in `check_method'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/request.rb:105:in `request_method'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:51:in `started_request_message'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:37:in `block in call_app'
+/home/maxrchung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/logger.rb:372:in `add'
+/home/maxrchung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/logger.rb:434:in `info'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `block in call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:26:in `tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/static.rb:116:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/configuration.rb:224:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/server.rb:569:in `handle_request'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/server.rb:406:in `process_client'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/server.rb:271:in `block in run'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+2018-03-17 20:29:58 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-03-17 20:29:58 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/", "REQUEST_URI"=>"/"}
+---
+2018-03-17 20:29:59 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-03-17 20:29:59 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/wp/", "REQUEST_URI"=>"/wp/"}
+---
+2018-03-17 20:29:59 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-03-17 20:29:59 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/wordpress/", "REQUEST_URI"=>"/wordpress/"}
+---
+2018-03-17 20:30:00 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-03-17 20:30:00 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/blog/", "REQUEST_URI"=>"/blog/"}
+---
+2018-03-19 03:16:43 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-03-19 03:16:43 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/", "REQUEST_URI"=>"/"}
+---
+2018-03-19 03:16:44 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-03-19 03:16:44 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/wp/", "REQUEST_URI"=>"/wp/"}
+---
+2018-03-19 03:16:45 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-03-19 03:16:45 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/wordpress/", "REQUEST_URI"=>"/wordpress/"}
+---
+2018-03-19 03:16:46 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-03-19 03:16:46 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/blog/", "REQUEST_URI"=>"/blog/"}
+---
+2018-03-20 21:29:22 -0400: Rack app error: #<ArgumentError: string contains null byte>
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:22:in `extname'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:22:in `block in create'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:135:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:135:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:59:in `block in parse'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:56:in `loop'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:56:in `parse'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart.rb:25:in `parse_multipart'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/request.rb:375:in `parse_multipart'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/request.rb:207:in `POST'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/methodoverride.rb:39:in `method_override_param'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/methodoverride.rb:27:in `method_override'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/methodoverride.rb:15:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/static.rb:116:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/configuration.rb:224:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/server.rb:569:in `handle_request'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/server.rb:406:in `process_client'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/server.rb:271:in `block in run'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+=== puma startup: 2018-03-28 11:16:46 -0400 ===
+2018-06-10 12:12:33 -0400: Rack app error: #<ArgumentError: string contains null byte>
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:22:in `extname'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:22:in `block in create'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:135:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:135:in `get_current_head_and_filename_and_content_type_and_name_and_body'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:59:in `block in parse'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:56:in `loop'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart/parser.rb:56:in `parse'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/multipart.rb:25:in `parse_multipart'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/request.rb:375:in `parse_multipart'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/request.rb:207:in `POST'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/methodoverride.rb:39:in `method_override_param'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/methodoverride.rb:27:in `method_override'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/methodoverride.rb:15:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/static.rb:116:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/configuration.rb:224:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/server.rb:569:in `handle_request'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/server.rb:406:in `process_client'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/server.rb:271:in `block in run'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.4.0/lib/puma/thread_pool.rb:114:in `block in spawn_thread'
+2018-09-19 14:38:06 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-09-19 14:38:06 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"id=1'", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"HEAD", "REQUEST_PATH"=>"/images/logintxt.png", "REQUEST_URI"=>"/images/logintxt.png?id=1'"}
+---
+2018-10-12 07:45:59 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-10-12 07:45:59 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/"}
+---
+2018-10-15 14:47:23 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-10-15 14:47:23 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/"}
+---
+2018-10-16 15:47:32 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-10-16 15:47:32 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/"}
+---
+2018-10-25 15:41:08 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+2018-10-25 15:41:08 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/cgi-bin/nobody/Search.cgi"}
+---
