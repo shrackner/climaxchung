@@ -854,3 +854,20 @@ Exiting
 [922] - Worker 0 (pid: 1213) booted, phase: 0
 [922] - Worker 0 (pid: 10786) booted, phase: 0
 [922] - Worker 0 (pid: 3511) booted, phase: 0
+[922] - Gracefully shutting down workers...
+[922] === puma shutdown: 2018-10-29 01:15:13 -0400 ===
+[922] - Goodbye!
+=== puma startup: 2018-10-29 01:15:26 -0400 ===
+[970] * Starting control server on unix:///tmp/puma-status-1540790126190-970
+[970] - Worker 0 (pid: 1250) booted, phase: 0
+[970] - Gracefully shutting down workers...
+=== puma startup: 2019-02-07 00:08:05 -0500 ===
+[970] * Starting control server on unix:///tmp/puma-status-1549516085211-970
+[970] - Worker 0 (pid: 1250) booted, phase: 0
+[970] - Worker 0 (pid: 20629) booted, phase: 0
+[970] - Worker 0 (pid: 30450) booted, phase: 0
+[970] - Worker 0 (pid: 24737) booted, phase: 0
+[970] - Gracefully shutting down workers...
+=== puma startup: 2019-03-24 18:04:06 -0400 ===
+[985] * Starting control server on unix:///tmp/puma-status-1553465046721-985
+[985] - Worker 0 (pid: 1265) booted, phase: 0

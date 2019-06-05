@@ -1098,3 +1098,172 @@ log writing faile=== puma startup: 2017-03-18 22:25:50 -0400 ===
 2018-10-25 15:41:08 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
 2018-10-25 15:41:08 -0400: ENV: {"rack.version"=>[1, 3], "rack.errors"=>#<IO:/home/maxrchung/website/shared/log/puma.stderr.log>, "rack.multithread"=>true, "rack.multiprocess"=>false, "rack.run_once"=>false, "SCRIPT_NAME"=>"", "QUERY_STRING"=>"", "SERVER_PROTOCOL"=>"HTTP/1.1", "SERVER_SOFTWARE"=>"puma 3.4.0 Owl Bowl Brawl", "GATEWAY_INTERFACE"=>"CGI/1.2", "REMOTE_ADDR"=>"127.0.0.1", "REQUEST_METHOD"=>"GET", "REQUEST_PATH"=>"/cgi-bin/nobody/Search.cgi"}
 ---
+=== puma startup: 2018-10-29 01:15:26 -0400 ===
+2018-12-23 15:57:13 -0500: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+2018-12-24 10:04:47 -0500: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+=== puma startup: 2019-02-07 00:08:05 -0500 ===
+2019-02-08 23:20:00 -0500: Rack app error handling request { OPTION / }
+#<ActionController::UnknownHttpMethod: OPTION, accepted HTTP methods are OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT, PROPFIND, PROPPATCH, MKCOL, COPY, MOVE, LOCK, UNLOCK, VERSION-CONTROL, REPORT, CHECKOUT, CHECKIN, UNCHECKOUT, MKWORKSPACE, UPDATE, LABEL, MERGE, BASELINE-CONTROL, MKACTIVITY, ORDERPATCH, ACL, SEARCH, MKCALENDAR, and PATCH>
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/request.rb:344:in `check_method'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/request.rb:105:in `request_method'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:51:in `started_request_message'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:37:in `block in call_app'
+/home/maxrchung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/logger.rb:372:in `add'
+/home/maxrchung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/logger.rb:434:in `info'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `block in call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:26:in `tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.10/lib/rack/methodoverride.rb:22:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.10/lib/rack/runtime.rb:18:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/static.rb:116:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.10/lib/rack/sendfile.rb:113:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/configuration.rb:225:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/server.rb:658:in `handle_request'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/server.rb:472:in `process_client'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/server.rb:332:in `block in run'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/thread_pool.rb:133:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+2019-03-06 01:56:42 -0500: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+2019-03-15 01:49:54 -0400: Rack app error handling request { OPTION / }
+#<ActionController::UnknownHttpMethod: OPTION, accepted HTTP methods are OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT, PROPFIND, PROPPATCH, MKCOL, COPY, MOVE, LOCK, UNLOCK, VERSION-CONTROL, REPORT, CHECKOUT, CHECKIN, UNCHECKOUT, MKWORKSPACE, UPDATE, LABEL, MERGE, BASELINE-CONTROL, MKACTIVITY, ORDERPATCH, ACL, SEARCH, MKCALENDAR, and PATCH>
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/request.rb:344:in `check_method'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/request.rb:105:in `request_method'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:51:in `started_request_message'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:37:in `block in call_app'
+/home/maxrchung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/logger.rb:372:in `add'
+/home/maxrchung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/logger.rb:434:in `info'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `block in call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:26:in `tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.10/lib/rack/methodoverride.rb:22:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.10/lib/rack/runtime.rb:18:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/static.rb:116:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.10/lib/rack/sendfile.rb:113:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/configuration.rb:225:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/server.rb:658:in `handle_request'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/server.rb:472:in `process_client'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/server.rb:332:in `block in run'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/thread_pool.rb:133:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+2019-03-18 02:48:21 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+Invalid or incomplete POST params
+2019-03-21 23:43:18 -0400: Rack app error handling request { OPTION / }
+#<ActionController::UnknownHttpMethod: OPTION, accepted HTTP methods are OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT, PROPFIND, PROPPATCH, MKCOL, COPY, MOVE, LOCK, UNLOCK, VERSION-CONTROL, REPORT, CHECKOUT, CHECKIN, UNCHECKOUT, MKWORKSPACE, UPDATE, LABEL, MERGE, BASELINE-CONTROL, MKACTIVITY, ORDERPATCH, ACL, SEARCH, MKCALENDAR, and PATCH>
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/request.rb:344:in `check_method'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/request.rb:105:in `request_method'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:51:in `started_request_message'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:37:in `block in call_app'
+/home/maxrchung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/logger.rb:372:in `add'
+/home/maxrchung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/logger.rb:434:in `info'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `block in call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:26:in `tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.10/lib/rack/methodoverride.rb:22:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.10/lib/rack/runtime.rb:18:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/static.rb:116:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.10/lib/rack/sendfile.rb:113:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/configuration.rb:225:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/server.rb:658:in `handle_request'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/server.rb:472:in `process_client'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/server.rb:332:in `block in run'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/thread_pool.rb:133:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+=== puma startup: 2019-03-24 18:04:06 -0400 ===
+2019-03-26 17:52:33 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+2019-03-29 18:09:38 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+Invalid or incomplete POST params
+2019-03-30 15:24:09 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+2019-03-31 03:24:11 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+2019-04-06 12:45:16 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+2019-04-06 21:18:27 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+2019-04-10 04:23:10 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+Invalid or incomplete POST params
+2019-04-27 15:15:25 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+2019-04-28 16:07:32 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+2019-04-29 14:37:37 -0400: Rack app error handling request { OPTION / }
+#<ActionController::UnknownHttpMethod: OPTION, accepted HTTP methods are OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT, PROPFIND, PROPPATCH, MKCOL, COPY, MOVE, LOCK, UNLOCK, VERSION-CONTROL, REPORT, CHECKOUT, CHECKIN, UNCHECKOUT, MKWORKSPACE, UPDATE, LABEL, MERGE, BASELINE-CONTROL, MKACTIVITY, ORDERPATCH, ACL, SEARCH, MKCALENDAR, and PATCH>
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/request.rb:344:in `check_method'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/http/request.rb:105:in `request_method'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:51:in `started_request_message'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:37:in `block in call_app'
+/home/maxrchung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/logger.rb:372:in `add'
+/home/maxrchung/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/logger.rb:434:in `info'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:37:in `call_app'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `block in call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:26:in `tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/tagged_logging.rb:68:in `tagged'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/rack/logger.rb:20:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.10/lib/rack/methodoverride.rb:22:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.10/lib/rack/runtime.rb:18:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/activesupport-4.2.5/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/static.rb:116:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/rack-1.6.10/lib/rack/sendfile.rb:113:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/engine.rb:518:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/railties-4.2.5/lib/rails/application.rb:165:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/configuration.rb:225:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/server.rb:658:in `handle_request'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/server.rb:472:in `process_client'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/server.rb:332:in `block in run'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/thread_pool.rb:133:in `call'
+/home/maxrchung/.rvm/gems/ruby-2.2.1/gems/puma-3.12.0/lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+2019-05-04 09:49:03 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+2019-05-07 10:48:43 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+2019-05-10 14:19:31 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+2019-05-11 23:12:16 -0400: HTTP parse error, malformed request (127.0.0.1): #<Puma::HttpParserError: Invalid HTTP format, parsing fails.>
+---
+Invalid or incomplete POST params
