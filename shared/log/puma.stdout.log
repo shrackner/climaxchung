@@ -871,3 +871,7 @@ Exiting
 === puma startup: 2019-03-24 18:04:06 -0400 ===
 [985] * Starting control server on unix:///tmp/puma-status-1553465046721-985
 [985] - Worker 0 (pid: 1265) booted, phase: 0
+[985] - Gracefully shutting down workers...
+=== puma startup: 2019-06-05 00:07:46 -0400 ===
+[2442] * Starting control server on unix:///tmp/puma-status-1559707666636-2442
+[2442] - Worker 0 (pid: 2513) booted, phase: 0
