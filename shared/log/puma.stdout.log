@@ -875,3 +875,304 @@ Exiting
 === puma startup: 2019-06-05 00:07:46 -0400 ===
 [2442] * Starting control server on unix:///tmp/puma-status-1559707666636-2442
 [2442] - Worker 0 (pid: 2513) booted, phase: 0
+[2442] - Gracefully shutting down workers...
+=== puma startup: 2020-05-16 00:04:19 -0400 ===
+[2041] * Starting control server on unix:///tmp/puma-status-1589601859949-2041
+[2047] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2051] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2055] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2059] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2063] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2067] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2071] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2075] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2080] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2085] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2089] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2093] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2099] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2103] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2107] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2111] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2115] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2119] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2125] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2129] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2133] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2137] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2143] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2147] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2151] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2155] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2159] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2163] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2167] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2171] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2175] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2179] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2183] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2187] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2191] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2197] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2201] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2205] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2209] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2213] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2217] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2221] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2225] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2229] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2233] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2237] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2242] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2041] - Gracefully shutting down workers...
+[2242] Early termination of worker
+[2041] === puma shutdown: 2020-05-16 00:05:02 -0400 ===
+[2041] - Goodbye!
+=== puma startup: 2020-05-16 00:05:48 -0400 ===
+[2392] * Starting control server on unix:///tmp/puma-status-1589601948874-2392
+[2398] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2402] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2406] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2411] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2416] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2420] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2424] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2428] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2432] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2436] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2440] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2446] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2450] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2454] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2458] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2464] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2468] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2472] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2480] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2484] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2488] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2492] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2496] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2500] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2504] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2508] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2513] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2518] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2522] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2526] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2530] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2534] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2540] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2544] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2548] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2555] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2560] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2564] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2568] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2572] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2576] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2580] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2584] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2588] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2592] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2596] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2600] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2604] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2608] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2612] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2616] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2620] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2626] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2630] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2634] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2638] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2644] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2648] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2652] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2658] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2662] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2666] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2670] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2674] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2680] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2684] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2688] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2692] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2696] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2700] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2704] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2708] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2712] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2716] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2723] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2728] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2734] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2738] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2743] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2748] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2752] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2756] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2760] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2764] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2768] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2772] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2779] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2785] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2791] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2795] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2800] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2805] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2809] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2813] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2817] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2821] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2827] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2831] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2835] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2839] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2843] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2847] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2853] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2857] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2861] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2865] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2869] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2873] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2877] + Gemfile in context: /home/maxrchung/website/Gemfile
+[2392] - Gracefully shutting down workers...
+[2877] Early termination of worker
+[2392] === puma shutdown: 2020-05-16 00:07:31 -0400 ===
+[2392] - Goodbye!
+=== puma startup: 2020-05-16 00:11:11 -0400 ===
+[3762] * Starting control server on unix:///tmp/puma-status-1589602271727-3762
+[3762] - Gracefully shutting down workers...
+[3804] Early termination of worker
+[3762] === puma shutdown: 2020-05-16 00:11:17 -0400 ===
+[3762] - Goodbye!
+=== puma startup: 2020-05-16 00:14:32 -0400 ===
+[2323] * Starting control server on unix:///tmp/puma-status-1589602472416-2323
+[2323] - Gracefully shutting down workers...
+[2654] Early termination of worker
+[2323] === puma shutdown: 2020-05-16 00:15:13 -0400 ===
+[2323] - Goodbye!
+=== puma startup: 2020-05-16 00:16:06 -0400 ===
+[3426] * Starting control server on unix:///tmp/puma-status-1589602566148-3426
+[3426] - Gracefully shutting down workers...
+[3506] Early termination of worker
+[3426] === puma shutdown: 2020-05-16 00:16:16 -0400 ===
+[3426] - Goodbye!
+=== puma startup: 2020-05-16 00:17:54 -0400 ===
+[3583] * Starting control server on unix:///tmp/puma-status-1589602674649-3583
+[3583] - Gracefully shutting down workers...
+[4227] Early termination of worker
+=== puma startup: 2020-05-16 00:19:09 -0400 ===
+[4241] * Starting control server on unix:///tmp/puma-status-1589602749389-4241
+[4241] - Gracefully shutting down workers...
+[5985] Early termination of worker
+=== puma startup: 2020-05-16 00:22:49 -0400 ===
+[975] * Starting control server on unix:///tmp/puma-status-1589602969356-975
+[975] - Gracefully shutting down workers...
+[4638] Early termination of worker
+=== puma startup: 2020-05-16 00:29:18 -0400 ===
+[4647] * Starting control server on unix:///tmp/puma-status-1589603358343-4647
+[4647] - Gracefully shutting down workers...
+[4751] Early termination of worker
+[4647] === puma shutdown: 2020-05-16 00:29:29 -0400 ===
+[4647] - Goodbye!
+=== puma startup: 2020-05-16 00:29:38 -0400 ===
+[4766] * Starting control server on unix:///tmp/puma-status-1589603378141-4766
+[4766] - Gracefully shutting down workers...
+[5933] Early termination of worker
+=== puma startup: 2020-05-16 00:32:07 -0400 ===
+[976] * Starting control server on unix:///tmp/puma-status-1589603527988-976
+=== puma startup: 2020-05-16 00:36:48 -0400 ===
+[3811] * Starting control server on unix:///tmp/puma-status-1589603808422-3811
+[3811] - Gracefully shutting down workers...
+[4544] Early termination of worker
+[3811] === puma shutdown: 2020-05-16 00:37:43 -0400 ===
+[3811] - Goodbye!
+Exiting
+
+[976] - Gracefully shutting down workers...
+[7469] Early termination of worker
+=== puma startup: 2020-05-16 00:44:04 -0400 ===
+[977] * Starting control server on unix:///tmp/puma-status-1589604244342-977
+=== puma startup: 2020-05-16 00:57:25 -0400 ===
+[17750] * Starting control server on unix:///tmp/puma-status-1589605045589-17750
+[17775] Early termination of worker
+[17825] Early termination of worker
+[17750] - Gracefully shutting down workers...
+[17750] === puma shutdown: 2020-05-16 00:57:31 -0400 ===
+[17750] - Goodbye!
+Exiting
+Usage:
+  rails new APP_PATH [options]
+
+Options:
+  -r, [--ruby=PATH]                                      # Path to the Ruby binary of your choice
+                                                         # Default: /home/maxrchung/.rvm/rubies/ruby-2.3.0/bin/ruby
+  -m, [--template=TEMPLATE]                              # Path to some application template (can be a filesystem path or URL)
+      [--skip-gemfile], [--no-skip-gemfile]              # Don't create a Gemfile
+  -B, [--skip-bundle], [--no-skip-bundle]                # Don't run bundle install
+  -G, [--skip-git], [--no-skip-git]                      # Skip .gitignore file
+      [--skip-keeps], [--no-skip-keeps]                  # Skip source control .keep files
+  -O, [--skip-active-record], [--no-skip-active-record]  # Skip Active Record files
+  -S, [--skip-sprockets], [--no-skip-sprockets]          # Skip Sprockets files
+      [--skip-spring], [--no-skip-spring]                # Don't install Spring application preloader
+  -d, [--database=DATABASE]                              # Preconfigure for selected database (options: mysql/oracle/postgresql/sqlite3/frontbase/ibm_db/sqlserver/jdbcmysql/jdbcsqlite3/jdbcpostgresql/jdbc)
+                                                         # Default: sqlite3
+  -j, [--javascript=JAVASCRIPT]                          # Preconfigure for selected JavaScript library
+                                                         # Default: jquery
+  -J, [--skip-javascript], [--no-skip-javascript]        # Skip JavaScript files
+      [--dev], [--no-dev]                                # Setup the application with Gemfile pointing to your Rails checkout
+      [--edge], [--no-edge]                              # Setup the application with Gemfile pointing to Rails repository
+      [--skip-turbolinks], [--no-skip-turbolinks]        # Skip turbolinks gem
+  -T, [--skip-test-unit], [--no-skip-test-unit]          # Skip Test::Unit files
+      [--rc=RC]                                          # Path to file containing extra configuration options for rails command
+      [--no-rc], [--no-no-rc]                            # Skip loading of extra configuration options from .railsrc file
+
+Runtime options:
+  -f, [--force]                    # Overwrite files that already exist
+  -p, [--pretend], [--no-pretend]  # Run but do not make any changes
+  -q, [--quiet], [--no-quiet]      # Suppress status output
+  -s, [--skip], [--no-skip]        # Skip files that already exist
+
+Rails options:
+  -h, [--help], [--no-help]        # Show this help message and quit
+  -v, [--version], [--no-version]  # Show Rails version number and quit
+
+Description:
+    The 'rails new' command creates a new Rails application with a default
+    directory structure and configuration at the path you specify.
+
+    You can specify extra command-line arguments to be used every time
+    'rails new' runs in the .railsrc configuration file in your home directory.
+
+    Note that the arguments specified in the .railsrc file don't affect the
+    defaults values shown above in this help message.
+
+Example:
+    rails new ~/Code/Ruby/weblog
+
+    This generates a skeletal Rails installation in ~/Code/Ruby/weblog.
+    See the README in the newly created application to get going.
+=== puma startup: 2020-05-16 01:10:04 -0400 ===
+[24255] * Starting control server on unix:///tmp/puma-status-1589605804869-24255
+[24284] Early termination of worker
+[24255] - Gracefully shutting down workers...
+[24255] === puma shutdown: 2020-05-16 01:10:07 -0400 ===
+[24255] - Goodbye!
+Exiting
+=== puma startup: 2020-05-16 01:16:03 -0400 ===
+[27277] * Starting control server on unix:///tmp/puma-status-1589606163600-27277
+[27277] - Worker 0 (pid: 27309) booted, phase: 0
+[27277] - Gracefully shutting down workers...
+[27277] === puma shutdown: 2020-05-16 01:16:07 -0400 ===
+[27277] - Goodbye!
+Exiting
+[977] - Gracefully shutting down workers...
+[27367] Early termination of worker
+=== puma startup: 2020-05-16 01:16:24 -0400 ===
+[976] * Starting control server on unix:///tmp/puma-status-1589606184366-976
+[976] - Worker 0 (pid: 1274) booted, phase: 0
