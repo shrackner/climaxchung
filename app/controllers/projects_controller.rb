@@ -53,8 +53,7 @@ class ProjectsController < ApplicationController
   end
 
   private
-  def project_params
-    params.require(:project).permit(:title, :content, :extension, :description, :startdate, :enddate, :thumbnail, attachments_attributes: [:id, :project_id, :file])
-  end
-  
+    def project_params
+      params.require(:project).permit(:title, :content, :extension, :description, :startdate, :enddate, :thumbnail, attachments_attributes: [:id, :project_id, :file])
+    end
 end
