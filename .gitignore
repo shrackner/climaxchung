@@ -4,8 +4,8 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-# Ignore puma logs
-/shared/log/*
+# Ignore puma shared contents
+/shared/**
 
 # Ignore bundler config.
 /.bundle
