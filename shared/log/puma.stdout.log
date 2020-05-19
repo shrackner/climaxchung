@@ -8973,3 +8973,157 @@ Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.5ms)
 
 
 Started GET "/assets/background.png" for ::1 at 2020-05-18 20:57:22 -0700
+Started GET "/" for ::1 at 2020-05-18 21:09:54 -0700
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/background.png" for ::1 at 2020-05-18 21:09:54 -0700
+Started GET "/projects" for ::1 at 2020-05-18 21:10:04 -0700
+Processing by ProjectsController#index as HTML
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE "projects"."enddate" IS NULL ORDER BY "projects"."startdate" DESC[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 54]]
+  Rendered projects/_overview.html.erb (2.4ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 52]]
+  Rendered projects/_overview.html.erb (1.2ms)
+  [1m[36mAttachment Load (0.0ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 49]]
+  Rendered projects/_overview.html.erb (0.9ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 48]]
+  Rendered projects/_overview.html.erb (0.9ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 5]]
+  Rendered collection of attachments/_attachment.html.erb [2 times] (0.7ms)
+  Rendered projects/_overview.html.erb (2.1ms)
+  [1m[36mProject Load (0.7ms)[0m  [1m[34mSELECT "projects".* FROM "projects" WHERE (enddate is NOT NULL) ORDER BY "projects"."enddate" DESC[0m
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 51]]
+  Rendered projects/_overview.html.erb (2.0ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 50]]
+  Rendered projects/_overview.html.erb (1.4ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 46]]
+  Rendered collection of attachments/_attachment.html.erb [36 times] (5.3ms)
+  Rendered projects/_overview.html.erb (7.3ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 37]]
+  Rendered collection of attachments/_attachment.html.erb [8 times] (1.1ms)
+  Rendered projects/_overview.html.erb (2.7ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 39]]
+  Rendered collection of attachments/_attachment.html.erb [2 times] (0.3ms)
+  Rendered projects/_overview.html.erb (1.5ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 47]]
+  Rendered collection of attachments/_attachment.html.erb [12 times] (1.7ms)
+  Rendered projects/_overview.html.erb (3.0ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 45]]
+  Rendered collection of attachments/_attachment.html.erb [8 times] (1.1ms)
+  Rendered projects/_overview.html.erb (2.3ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 42]]
+  Rendered collection of attachments/_attachment.html.erb [11 times] (1.5ms)
+  Rendered projects/_overview.html.erb (2.8ms)
+  [1m[36mAttachment Load (0.2ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 40]]
+  Rendered collection of attachments/_attachment.html.erb [29 times] (4.1ms)
+  Rendered projects/_overview.html.erb (5.7ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 38]]
+  Rendered collection of attachments/_attachment.html.erb [6 times] (0.9ms)
+  Rendered projects/_overview.html.erb (2.2ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 35]]
+  Rendered collection of attachments/_attachment.html.erb [7 times] (1.0ms)
+  Rendered projects/_overview.html.erb (2.2ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 36]]
+  Rendered collection of attachments/_attachment.html.erb [12 times] (1.6ms)
+  Rendered projects/_overview.html.erb (2.9ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 34]]
+  Rendered collection of attachments/_attachment.html.erb [13 times] (1.8ms)
+  Rendered projects/_overview.html.erb (3.1ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 18]]
+  Rendered collection of attachments/_attachment.html.erb [22 times] (3.1ms)
+  Rendered projects/_overview.html.erb (4.6ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 17]]
+  Rendered collection of attachments/_attachment.html.erb [13 times] (1.9ms)
+  Rendered projects/_overview.html.erb (3.3ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 19]]
+  Rendered collection of attachments/_attachment.html.erb [35 times] (5.3ms)
+  Rendered projects/_overview.html.erb (7.0ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 28]]
+  Rendered collection of attachments/_attachment.html.erb [16 times] (2.4ms)
+  Rendered projects/_overview.html.erb (4.6ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 31]]
+  Rendered collection of attachments/_attachment.html.erb [11 times] (1.5ms)
+  Rendered projects/_overview.html.erb (3.0ms)
+  [1m[36mAttachment Load (0.2ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 27]]
+  Rendered collection of attachments/_attachment.html.erb [36 times] (5.1ms)
+  Rendered projects/_overview.html.erb (7.0ms)
+  [1m[36mAttachment Load (3.5ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 20]]
+  Rendered collection of attachments/_attachment.html.erb [17 times] (2.5ms)
+  Rendered projects/_overview.html.erb (7.6ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 30]]
+  Rendered collection of attachments/_attachment.html.erb [15 times] (2.1ms)
+  Rendered projects/_overview.html.erb (3.6ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 32]]
+  Rendered collection of attachments/_attachment.html.erb [8 times] (1.1ms)
+  Rendered projects/_overview.html.erb (2.4ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 22]]
+  Rendered collection of attachments/_attachment.html.erb [5 times] (0.7ms)
+  Rendered projects/_overview.html.erb (2.1ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 29]]
+  Rendered collection of attachments/_attachment.html.erb [10 times] (1.4ms)
+  Rendered projects/_overview.html.erb (2.7ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 24]]
+  Rendered collection of attachments/_attachment.html.erb [9 times] (1.3ms)
+  Rendered projects/_overview.html.erb (2.5ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 21]]
+  Rendered collection of attachments/_attachment.html.erb [7 times] (1.0ms)
+  Rendered projects/_overview.html.erb (2.2ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 23]]
+  Rendered collection of attachments/_attachment.html.erb [11 times] (1.5ms)
+  Rendered projects/_overview.html.erb (2.8ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 25]]
+  Rendered collection of attachments/_attachment.html.erb [10 times] (1.4ms)
+  Rendered projects/_overview.html.erb (2.6ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 33]]
+  Rendered collection of attachments/_attachment.html.erb [6 times] (0.9ms)
+  Rendered projects/_overview.html.erb (2.1ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 26]]
+  Rendered collection of attachments/_attachment.html.erb [9 times] (1.2ms)
+  Rendered projects/_overview.html.erb (2.5ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 16]]
+  Rendered collection of attachments/_attachment.html.erb [17 times] (2.3ms)
+  Rendered projects/_overview.html.erb (3.6ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 15]]
+  Rendered collection of attachments/_attachment.html.erb [19 times] (2.8ms)
+  Rendered projects/_overview.html.erb (4.3ms)
+  [1m[36mAttachment Load (0.2ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 14]]
+  Rendered collection of attachments/_attachment.html.erb [27 times] (3.6ms)
+  Rendered projects/_overview.html.erb (5.5ms)
+  [1m[36mAttachment Load (0.2ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 13]]
+  Rendered collection of attachments/_attachment.html.erb [41 times] (5.3ms)
+  Rendered projects/_overview.html.erb (7.1ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 11]]
+  Rendered collection of attachments/_attachment.html.erb [11 times] (1.5ms)
+  Rendered projects/_overview.html.erb (2.8ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 10]]
+  Rendered collection of attachments/_attachment.html.erb [6 times] (0.8ms)
+  Rendered projects/_overview.html.erb (2.1ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 12]]
+  Rendered collection of attachments/_attachment.html.erb [8 times] (1.1ms)
+  Rendered projects/_overview.html.erb (2.3ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 9]]
+  Rendered collection of attachments/_attachment.html.erb [6 times] (0.9ms)
+  Rendered projects/_overview.html.erb (2.1ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 8]]
+  Rendered collection of attachments/_attachment.html.erb [8 times] (1.1ms)
+  Rendered projects/_overview.html.erb (2.3ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 7]]
+  Rendered collection of attachments/_attachment.html.erb [4 times] (0.6ms)
+  Rendered projects/_overview.html.erb (1.8ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 3]]
+  Rendered collection of attachments/_attachment.html.erb [3 times] (0.5ms)
+  Rendered projects/_overview.html.erb (1.6ms)
+  [1m[36mAttachment Load (0.1ms)[0m  [1m[34mSELECT "attachments".* FROM "attachments" WHERE "attachments"."project_id" = ?[0m  [["project_id", 2]]
+  Rendered collection of attachments/_attachment.html.erb [7 times] (1.0ms)
+  Rendered projects/_overview.html.erb (2.2ms)
+  Rendered projects/index.html.erb within layouts/application (161.0ms)
+Completed 200 OK in 173ms (Views: 162.8ms | ActiveRecord: 9.1ms)
+
+
+Started GET "/assets/background.png" for ::1 at 2020-05-18 21:10:05 -0700
