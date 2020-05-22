@@ -6,6 +6,7 @@
 
 # Ignore puma shared contents
 /shared/**
+!/shared/**/.keep
 
 # Ignore bundler config.
 /.bundle
