@@ -14,56 +14,19 @@
  *= require_self
  */
 
-/* Used to reset CSS */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-    display: block;
-}
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+$mpink: #ff7f7f;
+$primary: $mpink;
+$link: $primary;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+$family-sans-serif: 'Source Sans Pro', sans-serif;
+
+@import 'bulma';
 
 html {
-    font-family: 'Open Sans', 'Source Sans Pro', sans-serif;
     overflow-y: scroll;
     background-color: white;
-    background-image: url("background.png");
+    background-image: url('background.png');
     background-repeat: repeat;
     background-position: center;
     background-size: 1080px 1080px;
@@ -75,7 +38,7 @@ h1 {
     font-weight: bold;
 }
 
-p { 
+p {
     padding: 0 20px 30px 20px;
     font-size: 19px;
     line-height: 30px;
@@ -98,22 +61,6 @@ ul {
     list-style-type: disc;
 }
 
-::selection {
-    background: #ff7f7f;
-}
-
-a {
-    color: #ff7f7f;
-}
-
-a::selection {
-    background: #333333;
-}
-
-a:hover {
-    color: black;
-}
-
 #header {
     width: 100%;
     height: 50px;
@@ -124,7 +71,7 @@ a:hover {
 }
 
 @media (min-width: 700px) {
-    #buttons { 
+    #buttons {
 	width: 700px;
 	margin: 0 auto;
     }
@@ -143,7 +90,7 @@ a:hover {
 }
 
 @media (min-width: 700px) {
-    #buttons a { 
+    #buttons a {
 	width: 174px;
     }
 
@@ -172,7 +119,7 @@ a:hover {
 }
 
 @media (min-width: 700px) {
-    #mid { 
+    #mid {
 	width: 700px;
     }
 }
@@ -273,7 +220,7 @@ iframe, embed, .player-wrapper a, .player-wrapper div {
     }
 }
 
-.icon .iconw, .gmailw, .gmail, .linkedinw, .linkedin, 
+.icon .iconw, .gmailw, .gmail, .linkedinw, .linkedin,
 .githubw, .github, .twitterw, .twitter, .osuw, .osu {
     width: 32px;
     height: 32px;
@@ -400,10 +347,6 @@ iframe, embed, .player-wrapper a, .player-wrapper div {
     padding: 0 20px 5px 0;
 }
 
-.project-overview h1::selection {
-    background: #333333;
-}
-
 .project-overview p {
     padding: 0 20px 5px 0;
     padding-bottom: 5px;
@@ -412,10 +355,6 @@ iframe, embed, .player-wrapper a, .player-wrapper div {
 
 .blog-link {
     text-decoration: none;
-}
-
-.blog-link h1::selection {
-    background-color: #333333;
 }
 
 .pagination {

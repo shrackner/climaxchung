@@ -6,7 +6,6 @@
 	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	<%= csrf_meta_tags %>
 
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 	<meta name=viewport content="width=device-width, initial-scale=1">
 
     </head>
@@ -14,7 +13,7 @@
 	<% flash.each do |message_type, message| %>
 	    <div class="alert alert-<%= message_type %>"><%= message %></div>
 	<% end %>
-	
+
 	<div id="header">
 	    <div class="icon">
 		<a class="iconw" href="/"></a>
@@ -35,8 +34,8 @@
 		<a class="osuw" href="https://osu.ppy.sh/u/1472763"></a>
 	    </div>
 	</div>
-	
-	<div id="mid">	
+
+	<div id="mid">
 	    <%= yield %>
 	</div>
 
