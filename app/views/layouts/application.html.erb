@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-	<title> <%= @title%> - Max R. Chung</title>
-	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-	<%= csrf_meta_tags %>
-
-	<meta name=viewport content="width=device-width, initial-scale=1">
-
+		<title><%= @title%> - Max R. Chung</title>
+		<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+		<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+		<%= csrf_meta_tags %>
+		<meta name=viewport content="width=device-width, initial-scale=1">
     </head>
+
     <body>
-	<% flash.each do |message_type, message| %>
-	    <div class="alert alert-<%= message_type %>"><%= message %></div>
-	<% end %>
+		<% flash.each do |message_type, message| %>
+			<div class="alert alert-<%= message_type %>"><%= message %></div>
+		<% end %>
 
-	<div id="header">
-	    <div class="icon">
-		<a class="iconw" href="/"></a>
-	    </div>
+		<div id="header">
+			<div class="icon">
+				<a class="iconw" href="/"></a>
+			</div>
 
-	    <div id="buttons">
-		<%= link_to 'Home', controller: 'home' %>
-		<%= link_to 'Blog', controller: 'blogs'  %>
-		<%= link_to 'Projects', controller: 'projects' %>
-		<%= link_to 'About', controller: 'about' %>
-	    </div>
+			<div id="buttons">
+				<%= link_to "Home", controller: "home" %>
+				<%= link_to "Blog", controller: "blogs"  %>
+				<%= link_to "Projects", controller: "projects" %>
+				<%= link_to "About", controller: "about" %>
+			</div>
 
-	    <div class="contact">
-		<a class="gmailw" href="mailto:maxrchung@gmail.com"></a>
-		<a class="linkedinw" href="https://www.linkedin.com/in/maxrchung"></a>
-		<a class="githubw" href="https://github.com/maxrchung"></a>
-		<a class="twitterw" href="https://twitter.com/maxrchung"></a>
-		<a class="osuw" href="https://osu.ppy.sh/u/1472763"></a>
-	    </div>
-	</div>
+			<div class="contact">
+				<a class="gmailw" href="mailto:maxrchung@gmail.com"></a>
+				<a class="linkedinw" href="https://www.linkedin.com/in/maxrchung"></a>
+				<a class="githubw" href="https://github.com/maxrchung"></a>
+				<a class="twitterw" href="https://twitter.com/maxrchung"></a>
+				<a class="osuw" href="https://osu.ppy.sh/u/1472763"></a>
+			</div>
+		</div>
 
-	<div id="mid">
-	    <%= yield %>
-	</div>
+		<div id="mid">
+			<%= yield %>
+		</div>
 
-	<div id="footer"></div>
-    </body>
+		<div id="footer"></div>
+	</body>
 </html>
