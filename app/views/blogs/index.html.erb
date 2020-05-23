@@ -19,7 +19,7 @@
     <% end %>
 <% end %>
 
-<%= will_paginate @blogs %>
+<%= will_paginate @blogs, previous_label: "← Prev" %>
 
 <% if logged_in? %>
     <%= button_to 'New blog', new_blog_path, :method => :get %>
