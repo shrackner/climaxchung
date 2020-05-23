@@ -95,11 +95,11 @@ ul {
     }
 
     #buttons a:first-child {
-	border-left: 1px solid white;
+	    border-left: 1px solid white;
     }
 
     #buttons a:last-child {
-	border-right: 1px solid white;
+	    border-right: 1px solid white;
     }
 }
 
@@ -108,7 +108,7 @@ ul {
 }
 
 #buttons a:hover {
-    color: black;
+    color: $link-hover;
 }
 
 #mid {
@@ -239,84 +239,67 @@ iframe, embed, .player-wrapper a, .player-wrapper div {
     background-image: url('/file/iconb.png')
 }
 
-.contact .gmailw {
-    background-image: url('/file/gmail_logow.png')
-}
-
-.contact .gmail {
-    background-image: url('/file/gmail_logo.png')
-}
-
-.contact .gmailw:hover {
-    background-image: url('/file/gmail_logob.png')
-}
-
-.contact .gmail:hover {
-    background-image: url('/file/gmail_logob.png')
-}
-
-.contact .linkedinw {
-    background-image: url('/file/linkedin_logow.png')
-}
-
-.contact .linkedin {
-    background-image: url('/file/linkedin_logo.png')
-}
-
-.contact .linkedinw:hover {
-    background-image: url('/file/linkedin_logob.png')
-}
-
-.contact .linkedin:hover {
-    background-image: url('/file/linkedin_logob.png')
-}
-
-.contact .githubw {
-    background-image: url('/file/github_logow.png')
-}
-
-.contact .github {
-    background-image: url('/file/github_logo.png')
-}
-
-.contact .githubw:hover {
-    background-image: url('/file/github_logob.png')
-}
-
-.contact .github:hover {
-    background-image: url('/file/github_logob.png')
-}
-
-.contact .twitterw {
-    background-image: url('/file/twitter_logow.png')
-}
-
-.contact .twitter {
-    background-image: url('/file/twitter_logo.png')
-}
-
-.contact .twitterw:hover {
-    background-image: url('/file/twitter_logob.png')
-}
-
-.contact .twitter:hover {
-    background-image: url('/file/twitter_logob.png')
-}
-
-.contact .osuw {
-    background-image: url('/file/osu_logow.png')
-}
-
-.contact .osu {
-    background-image: url('/file/osu_logo.png')
-}
-
-.contact .osuw:hover {
-    background-image: url('/file/osu_logob.png')
-}
-
-.contact .osu:hover {
-    background-image: url('/file/osu_logob.png')
+.contact {
+    .gmailw {
+        background-image: url('/file/gmail_logow.png')
+    }
+    .gmail {
+        background-image: url('/file/gmail_logo.png')
+    }
+    .gmailw:hover {
+        background-image: url('/file/gmail_logob.png')
+    }
+    .gmail:hover {
+        background-image: url('/file/gmail_logob.png')
+    }
+    .linkedinw {
+        background-image: url('/file/linkedin_logow.png')
+    }
+    .linkedin {
+        background-image: url('/file/linkedin_logo.png')
+    }
+    .linkedinw:hover {
+        background-image: url('/file/linkedin_logob.png')
+    }
+    .linkedin:hover {
+        background-image: url('/file/linkedin_logob.png')
+    }
+    .githubw {
+        background-image: url('/file/github_logow.png')
+    }
+    .github {
+        background-image: url('/file/github_logo.png')
+    }
+    .githubw:hover {
+        background-image: url('/file/github_logob.png')
+    }
+    .github:hover {
+        background-image: url('/file/github_logob.png')
+    }
+    .twitterw {
+        background-image: url('/file/twitter_logow.png')
+    }
+    .twitter {
+        background-image: url('/file/twitter_logo.png')
+    }
+    .twitterw:hover {
+        background-image: url('/file/twitter_logob.png')
+    }
+    .twitter:hover {
+        background-image: url('/file/twitter_logob.png')
+    }
+    .osuw {
+        background-image: url('/file/osu_logow.png')
+    }
+    .osu {
+        background-image: url('/file/osu_logo.png')
+    }
+    .osuw:hover {
+        background-image: url('/file/osu_logob.png')
+    }
+    .osu:hover {
+        background-image: url('/file/osu_logob.png')
+    }
 }
 
 .project-overview {
@@ -325,32 +308,32 @@ iframe, embed, .player-wrapper a, .player-wrapper div {
     float: left;
     position: relative;
     margin-bottom: 30px;
-}
 
-.project-overview img {
-    width: 25%;
-    max-width: 100px;
-    position: absolute;
-    top: 50%;
-    left: 19%;
-    transform: translate(-50%,-50%);
-}
+    img {
+        width: 25%;
+        max-width: 100px;
+        position: absolute;
+        top: 50%;
+        left: 19%;
+        transform: translate(-50%,-50%);
+    }
 
-.project-overview .project-overview-info {
-    width: 62%;
-    position: relative;
-    left: 38%;
-    padding: 0;
-}
+    .project-overview-info {
+        width: 62%;
+        position: relative;
+        left: 38%;
+        padding: 0;
+    }
 
-.project-overview h1 {
-    padding: 0 20px 5px 0;
-}
+    h1 {
+        padding: 0 20px 5px 0;
+    }
 
-.project-overview p {
-    padding: 0 20px 5px 0;
-    padding-bottom: 5px;
-    color: black;
+    p {
+        padding: 0 20px 5px 0;
+        padding-bottom: 5px;
+        color: black;
+    }
 }
 
 .blog-link {
@@ -370,7 +353,7 @@ iframe, embed, .player-wrapper a, .player-wrapper div {
 }
 
 .pagination a:hover {
-    color: black;
+    color: $link-hover;
 }
 
 .pagination a, .pagination .current, .pagination .previous_page,.pagination .next_page {
