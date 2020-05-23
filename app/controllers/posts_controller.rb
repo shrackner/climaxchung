@@ -20,10 +20,10 @@ class PostsController < ApplicationController
         @post.attachments.create!(:file => f)
       end
     end
-    
+
     redirect_to about_path
   end
-  
+
   def create
     @post = Post.new(post_params)
     @post.save
@@ -40,9 +40,9 @@ class PostsController < ApplicationController
     @post.destroy
     redirect_to about_path
   end
-  
+
   private
-  def post_params
-    params.require(:post).permit(:title, :content, attachments_attributes: [:id, :post_id, :file])
-  end
+    def post_params
+      params.require(:post).permit(:title, :content, attachments_attributes: [:id, :post_id, :file])
+    end
 end
