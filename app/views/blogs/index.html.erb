@@ -1,5 +1,9 @@
 <% @title = "Blog" %>
 
+<% if logged_in? %>
+    <%= button_to 'New blog', new_blog_path, :method => :get %>
+<% end %>
+
 <% @blogs.each do |b| %>
     <%= link_to b, { :class => "blog-link" } do %>
         <h1><%= b.title %></h1>
@@ -20,7 +24,3 @@
 <% end %>
 
 <%= will_paginate @blogs, previous_label: "← Prev" %>
-
-<% if logged_in? %>
-    <%= button_to 'New blog', new_blog_path, :method => :get %>
-<% end %>
