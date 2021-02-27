@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: maxrchung-rails
+  labels:
+    app: maxrchung-rails
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: maxrchung-rails
+  template:
+    metadata:
+      labels:
+        app: maxrchung-rails
+    spec:
+      containers:
+      - name: maxrchung
+        image: maxrchung/maxrchung-rails
+        ports:
+        - containerPort: 3000
