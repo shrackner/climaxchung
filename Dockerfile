@@ -1,5 +1,8 @@
 FROM ruby:2
-RUN apt-get update -qq && apt-get install -y nodejs
+
+RUN apt-get update -qq
+RUN apt-get install -y nodejs
+
 WORKDIR /app
 COPY . /app
 RUN bundle install
@@ -8,6 +11,7 @@ RUN bundle install
 COPY entrypoint.sh /usr/bin/
 RUN chmod +x /usr/bin/entrypoint.sh
 ENTRYPOINT ["entrypoint.sh"]
+
 EXPOSE 3000
 
 # Start the main process.
