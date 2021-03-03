@@ -1,5 +1,5 @@
 {{- if .Values.local }}
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: maxrchung-rails
@@ -8,7 +8,10 @@ spec:
   - http:
       paths:
       - path: /
+        pathType: Prefix
         backend:
-          serviceName: maxrchung-rails
-          servicePort: 3000
+          service:
+            name: maxrchung-rails
+            port:
+              number: 80
 {{- end }}
