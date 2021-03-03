@@ -1,0 +1,14 @@
+{{- if .Values.local }}
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: maxrchung-rails
+spec:
+  rules:
+  - http:
+      paths:
+      - path: /
+        backend:
+          serviceName: maxrchung-rails
+          servicePort: 3000
+{{- end }}
