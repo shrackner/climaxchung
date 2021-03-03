@@ -1,1 +1,0 @@
-local = {{ required ".Values.local must be provided to indicate if deploy is for local environment (true) or cloud (false)" .Values.local }}

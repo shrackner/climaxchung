@@ -1,0 +1,2 @@
+# Indicates if deploy is for local environment (true) or cloud (false)
+local: false
