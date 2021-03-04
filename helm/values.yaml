@@ -1,2 +1,5 @@
-# Indicates if deploy is for local environment (true) or cloud (false)
+# Indicates if deploy is for local (true) or cloud (false) environment
 local: false
+
+# Host path to volume into local environment
+hostPath: ""
