@@ -19,3 +19,13 @@ spec:
         image: maxrchung/maxrchung-rails
         ports:
         - containerPort: 3000
+{{- if .Values.local }}
+        volumeMounts:
+        - mountPath: /app
+          name: maxrchung-rails
+      volumes:
+        - name: maxrchung-rails
+          hostPath:
+            path: {{ .Values.hostPath }}
+            type: Directory
+{{- end }}
