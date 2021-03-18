@@ -9,3 +9,6 @@ hostPath: "/run/desktop/mnt/host/c/Users/Wax Chug da Gwad/Desktop/maxrchung_rail
 # doesn't really matter since this site is pretty much like a statically generated
 # site.
 secretKeyBase: 9a466a02fc45941770556a91ea9f27221d442af3c6fc3a7d267554acc4d6637d73c9e726050877ffa9d818017f3a50bfb5743d696e48ac24e2b2aad7be59268c
+
+# What Rails environment to run the server in
+railsEnv: development
