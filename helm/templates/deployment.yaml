@@ -19,6 +19,9 @@ spec:
         image: maxrchung/maxrchung-rails
         ports:
         - containerPort: 3000
+        env:
+        - name: SECRET_KEY_BASE
+          value: {{ .Values.secretKeyBase }}
 {{- if .Values.local }}
         volumeMounts:
         - mountPath: /app
