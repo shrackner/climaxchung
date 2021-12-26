@@ -4,6 +4,9 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+# https://github.com/bkeepers/dotenv
+*.env
+
 # Ignore puma shared contents
 /shared/**
 !/shared/**/.keep

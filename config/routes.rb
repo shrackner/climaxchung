@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   get 'login' => 'sessions#new'
   post 'login' => 'sessions#create'
   delete 'login' => 'sessions#destroy'
+  # https://stackoverflow.com/a/7781314/13183186
+  get 'file/*id' => 'file#show', format: false
   
   resources :posts
   resources :attachments

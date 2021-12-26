@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'dotenv-rails', groups: [:development, :test]
+
+# https://github.com/carrierwaveuploader/carrierwave#using-amazon-s3
+gem 'fog-aws'
+
 gem 'puma'
 
 # pagination
