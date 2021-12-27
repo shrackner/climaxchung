@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'dotenv-rails', groups: [:development, :test]
 
+# https://stackoverflow.com/questions/19953653/how-to-set-up-postgres-database-for-local-rails-project
+gem 'pg'
+
 # https://github.com/carrierwaveuploader/carrierwave#using-amazon-s3
 gem 'fog-aws'
 
@@ -17,8 +20,6 @@ gem 'carrierwave'
 # Rails 5.2.5, 6.0.3.6, and 6.1.3.1 have been released, removing the mimemagic dependency
 # https://stackoverflow.com/a/66921259/13183186
 gem 'rails', '~> 5.2.5'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3', '~> 1.3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
