@@ -1,1 +1,1 @@
-This repo is once again outdated as I revamped my website another time, now using React/Next.js: https://github.com/maxrchung/maxrchung-next
+This repo outdated as I revamped my website another time, now using React/Next.js: https://github.com/maxrchung/maxrchung-next
